@@ -35,10 +35,14 @@
 
 .payments-filters-container{
     width: 70%;
+    min-height: 2vw;
+    padding: 0.1vw 2vw;
     margin: 0 auto 1vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1rem;
+    border: 1px solid #8888ff00;
 }
 
 .payments-filters-container li {

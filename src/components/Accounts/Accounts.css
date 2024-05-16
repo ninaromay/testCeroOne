@@ -32,3 +32,50 @@
     list-style: none;
     padding: 0;
 }
+
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-container p{
+    padding: 0.1vw 0 0.1vw 0;
+    margin-bottom: 1vw;
+}
+.accounts-table-filter{
+    min-width: 15vw;
+    min-height: 2vw;
+    padding: 0.1vw 0.5vw 0.1vw 2vw;
+    margin-bottom: 1vw;
+    border-radius: 20px;
+    border: 1px solid #8888ff00;
+    font-size: 1rem;
+}
+
+.accounts-table-filter2{
+    width: 8vw;
+    min-height: 2vw;
+    padding: 0.1vw 0.5vw 0.1vw 2vw;
+    margin: 0 0.5vw 1vw;
+    border-radius: 20px;
+    border: 1px solid #8888ff00;
+    font-size: 1rem;
+}
+
+.filter-range-submit{
+    background-color: #5c876e;
+    padding: 0.5vw 1vw;
+    margin-bottom: 1vw;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #5c876e00;
+    font-weight: bold;
+}
+
+.filter-range-submit:hover{
+    color: #5c876e;
+    background-color: #fff;
+    border: 1px solid #5c876e;
+}
