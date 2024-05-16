@@ -37,7 +37,6 @@ const  Contacts = () => {
       fetch('http://localhost:9000/contacts')
         .then(response => response.json())
         .then(response => {
-        //   console.log(response);
             setContacts(response);
             setTotalContacts(response.length/10);
             contactHandler(0, 9, response);   

@@ -2,7 +2,7 @@ import './Payments.css'
 import { useState, useEffect } from 'react';
 
 const  Payments = () => {
-    const paymentsHead = ["ID", "Name", "Document Type"];
+    const paymentsHead = ["ID", "Owner", "Document Type"];
     const paymentsFilters = [
         {key: 0, id: 'None',      type:'none'}, 
         {key: 1, id: 'Invoices',  type:'invoices'}, 
@@ -85,7 +85,7 @@ const  Payments = () => {
              {limPayments.map(payment => 
                  <li key={payment.id}>
                      <p>{payment.id}</p>
-                     <p>{payment.contactName}</p>
+                     <p>{payment.contactName ? payment.contactName : <span className='unown'>-</span>}</p>
                      <p>{payment.documentType}</p>
                  </li>)}
          </ul>} 

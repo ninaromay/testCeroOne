@@ -52,3 +52,10 @@
     border-radius: 20px;
     cursor: pointer;
 }
+
+.unown{
+    color: red;
+    font-weight: bold;
+    font-size: 2vw;
+    line-height: 1vw;
+}
