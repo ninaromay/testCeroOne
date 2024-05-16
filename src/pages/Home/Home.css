@@ -1,0 +1,16 @@
+.home-container{
+    width: 100%;
+    height: 100vh;
+    padding: 10vw 10vw 5vw;
+}
+
+.home-title{
+    line-height: 1.5em;
+}
+
+.home-status{
+    color: green;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: "Lucida Console", "Courier New", monospace;
+}

@@ -1,0 +1,54 @@
+.payments-table-top{
+    max-width: 80vw;
+    min-height: 3vw;
+    background-color: #904b32;
+    color: white;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius:  10px 10px 0 0;
+}
+
+.payments-table li{
+    border-bottom: 1px solid #904b32;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payments-table li p{
+    padding: 1vw 2vw;
+    width: 100%;
+    max-height: 2.5vw;
+    text-align: center;
+    line-height: 1.2vw;
+}
+
+.payments-table{
+    list-style: none;
+    padding: 0;
+}
+
+.payments-filters-container{
+    width: 70%;
+    margin: 0 auto 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payments-filters-container li {
+    background-color: #904b32;
+    color: white;
+    width: 10vw;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+}

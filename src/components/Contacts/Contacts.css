@@ -1,0 +1,103 @@
+.container{
+    width: 70vw;
+    min-height: 75vh;
+    padding: 6vw 15vw;
+}
+
+.table-filter{
+    min-width: 20vw;
+    min-height: 2vw;
+    padding: 0.1vw 2vw;
+    margin-bottom: 1vw;
+    border-radius: 20px;
+    border: 1px solid #8888ff00;
+    font-size: 1rem;
+}
+
+.table-filter:focus-visible{
+    border: 1px solid #8888ff !important;
+}
+
+.container ul {
+    list-style: none;
+}
+
+.contacts-table-top{
+    max-width: 80vw;
+    min-height: 3vw;
+    background-color: #8888ff;
+    color: white;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius:  10px 10px 0 0;
+}
+
+.table li{
+    width: 100%;
+    padding: 1vw 2vw;
+}
+
+.contacts-table li{
+    border-bottom: 1px solid rgb(136, 136, 255);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-table li p{
+    padding: 1vw 2vw;
+    width: 100%;
+    max-height: 1.2vw;
+    text-align: center;
+    line-height: 1.2vw;
+}
+
+.contacts-table{
+    list-style: none;
+    padding: 0;
+}
+
+.block{
+    max-height: 1vw;
+}
+
+.arrow{
+    height: 2vw;
+    width: 2vw;
+    padding: 0.5vw;
+    text-align: center;
+    cursor: pointer;
+}
+
+.inactiveArrow{
+    pointer-events: none;
+    opacity: 0.3;
+    position: relative;
+    z-index: 1;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages{
+    max-height: 3vw;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pages-container{
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
